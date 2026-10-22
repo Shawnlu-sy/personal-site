@@ -13,8 +13,6 @@ document.querySelectorAll("[data-bio]").forEach((el) => { el.textContent = profi
 document.querySelectorAll("[data-email]").forEach((el) => { el.textContent = profile.email; });
 document.querySelector("[data-email-link]").href = `mailto:${profile.email}`;
 document.querySelector("[data-github]").href = profile.github;
-const social = document.querySelector("[data-social]");
-social.href = profile.social;
-social.textContent = `${profile.socialLabel} ↗`;
 document.title = `${profile.name} — 个人主页`;
 document.querySelector("#year").textContent = new Date().getFullYear();
+
