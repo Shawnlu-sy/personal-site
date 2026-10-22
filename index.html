@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ef">
+  <meta name="description" content="个人主页">
+  <title>林知夏 — 个人主页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="topbar" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="回到首页"><span class="brand-mark">✳</span><span data-name>姓名</span></a>
+      <div class="nav-links"><a href="#about">关于</a><a href="#work">项目</a><a class="nav-contact" href="#contact">联系我 <span>↗</span></a></div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span>你好，欢迎来到我的小站</p>
+        <h1>你好，我是<br><span data-name>姓名</span><span class="period">.</span></h1>
+        <p class="hero-lede" data-bio>独立设计师与前端开发者，喜欢把复杂的想法变成简单、好用、带点温度的作品。</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">看看我的项目 <span>↓</span></a><a class="text-link" href="#contact">和我聊聊 <span>↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="装饰插画">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sun"></div><div class="shape shape-a"></div><div class="shape shape-b"></div>
+        <div class="hero-note note-top">MAKING<br>THINGS<br>MATTER<span> ↘</span></div>
+        <div class="hero-note note-bottom">创作 · 探索 · 分享</div>
+        <div class="spark spark-one">✳</div><div class="spark spark-two">✳</div>
+      </div>
+      <div class="hero-index"><span>01 / 03</span><span>向下探索 ↓</span></div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-label"><span>01</span><span>关于我</span></div>
+      <div class="intro-content"><h2>把好奇心，<br>变成<span class="highlight">看得见的作品。</span></h2><p data-bio>我喜欢从日常观察里找到灵感，再用设计和代码把它们变成真实可用的东西。工作之外，我会读书、拍照，也常常为了一个小点子做点新尝试。</p><div class="tag-list"><span>持续学习</span><span>认真创造</span><span>保持好奇</span></div></div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-label"><span>02</span><span>精选项目</span></div>
+      <div class="work-content"><div class="work-heading"><h2>最近在做</h2><p>一些值得分享的作品与尝试</p></div>
+        <a class="project-card project-one" href="#contact"><div class="project-meta"><span>项目 01</span><span>2025 — 至今</span></div><div class="project-title"><h3>拾光清单</h3><span class="arrow">↗</span></div><p>一个轻量的灵感收集工具，让随手记下的想法更容易整理、回看和继续探索。</p><div class="project-art art-one"><span>IDEA<br>→ FORM</span><i>✳</i></div></a>
+        <a class="project-card project-two" href="#contact"><div class="project-meta"><span>项目 02</span><span>2024 — 2025</span></div><div class="project-title"><h3>城市漫游指南</h3><span class="arrow">↗</span></div><p>为周末散步设计的小地图，收录沿途的街角咖啡店、独立书店和安静公园。</p><div class="project-art art-two"><span>GOOD<br>THINGS<br>GROW</span><i>↗</i></div></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label"><span>03</span><span>保持联系</span></div>
+      <div class="contact-content"><p class="eyebrow">有想法？一起聊聊。</p><h2>好事情，<br>从一次对话开始<span class="period">.</span></h2><a class="email-link" data-email-link href="mailto:hello@example.com"><span data-email>hello@example.com</span><span>↗</span></a><div class="social-links"><a data-github href="https://github.com/">GitHub ↗</a><a data-social href="#">GitHub ↗</a></div></div>
+    </section>
+
+    <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">✳</span><span data-name>姓名</span></a><span>用一点点好奇心做出来。 <span id="year"></span></span><a href="#home">回到顶部 ↑</a></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
